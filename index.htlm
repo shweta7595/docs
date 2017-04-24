@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1 align="center">CBSC RESULTS</h1></div>
+        <div align="center">
+        <form action='Detail' method='post'>
+            ENTER ROLL NO :<input type='text' name="rolno"/><br/>
+            DATE OF BIRTH : <input type="date" name="dob"/><br/>
+            <input type="submit" value="FIND RESULT"/>
+       
+        </form>
+        </div>
+    </body>
+</html>
